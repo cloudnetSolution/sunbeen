@@ -158,6 +158,11 @@ h6,
 }
 .header-carousel .owl-carousel-inner h1 {
     font-family: "Poppins", serif;
+    font-size: calc(4.625rem + 4.5vw);
+   
+}
+.header-carousel .owl-carousel-inner p {
+font-size: calc(1.275rem + 1.3vw) !important;
 }
 .header-carousel .owl-carousel-item {
     position: relative;
