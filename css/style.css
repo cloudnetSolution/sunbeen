@@ -162,7 +162,7 @@ h6,
 }
 .header-carousel .owl-carousel-inner h1 {
     font-family: "Poppins", serif;
-    font-size: calc(4.625rem + 4.5vw);
+    font-size: calc(4.625rem + 1.5vw);
    
 }
 .header-carousel .owl-carousel-inner p {
@@ -254,7 +254,6 @@ font-size: calc(1.275rem + 1.3vw) !important;
 }
 
 .page-header {
-    margin-bottom: 6rem;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/compound.webp) center center no-repeat;
     background-size: cover;
 }
@@ -333,7 +332,17 @@ font-size: calc(1.275rem + 1.3vw) !important;
     opacity: 1;
 }
 
-
+#filteredCategory {
+     font-weight: bold; 
+     margin-bottom: 10px;
+}
+#clearFilter { 
+    display: none; 
+    margin-left: 10px;
+}
+.filter-box{
+    max-width: 350px;
+}
 /*** Team ***/
 .team-item .team-text {
     position: relative;
