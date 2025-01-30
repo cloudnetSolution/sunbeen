@@ -336,12 +336,21 @@ font-size: calc(1.275rem + 1.3vw) !important;
      font-weight: bold; 
      margin-bottom: 10px;
 }
-#clearFilter { 
+#clearFilter , #viewMore { 
     display: none; 
     margin-left: 10px;
 }
 .filter-box{
     max-width: 350px;
+}
+#productContainer .product-item img{
+    max-height: 250px;
+    min-height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+#productContainer .product-item h3{
+    font-size: calc(0.6rem + .6vw);
 }
 /*** Team ***/
 .team-item .team-text {
