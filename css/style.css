@@ -89,7 +89,9 @@ h6,
     height: 100%;
     object-fit: cover;
 }
-
+.font-weight-bold{
+    font-weight: 500;
+}
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
     border: none;
