@@ -521,3 +521,9 @@ font-size: calc(1.275rem + 1.3vw) !important;
         padding-left: 0;
     }
 }
+.banner-quality{
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/quality/banner-quality.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    background-attachment: fixed;
+}
