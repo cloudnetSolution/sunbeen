@@ -106,7 +106,14 @@
             </div>
             <div id="filteredCategory" class="mb-4"></div>
             <div class="row g-4" id="productContainer">
-                
+                <div class="col-12 product text-left mx-auto pb-2 position-relative">
+                    <div style="padding: 10px 30px;background: #736d62; border-radius: 0px 10px 10px 0; max-width: 500px;" class=" text-white">We manufacture cocoa products using cocoa nibs and cocoa cakes, directly sourced from Ghana, Ivory Coast, Indonesia, Malaysia and others. The products are ideal for applications in Confectionery, Bakery, Ice Creams, Biscuit, Dairy products, cosmetics etc. </div>
+                </div>
+
+
+                <div class="col-12 product text-center mx-auto py-5">
+                    <span style="padding: 10px 30px; " class="bg-primary text-white">Cocoa products </span>
+                </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp product " data-wow-delay="0.1s">
                     <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                         
@@ -155,7 +162,9 @@
                     </div>
                 </div>
 
-                
+                <div class="col-12 product text-center mx-auto py-5">
+                    <span style="padding: 10px 30px; " class="bg-primary text-white">Chocolate products  </span>
+                </div>
 
                 <div class="col-lg-4 col-md-6 wow fadeInUp product mass" data-wow-delay="0.1s">
                     <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
@@ -189,6 +198,9 @@
                             <h3 class="mb-3">Choco chips</h3>
                         </div>
                     </div>
+                </div>
+                <div class="col-12 powder text-center mx-auto py-5">
+                    <span style="padding: 10px 30px; " class="bg-primary text-white">Natural  </span>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp product " data-wow-delay="0.1s">
                     <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
@@ -945,7 +957,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script>
-        let currentIndex = 10; // Start with 10 products
+        let currentIndex = 13; // Start with 10 products
         const itemsPerPage = 20;  // Display 20 products at a time after the first batch
         const products = document.querySelectorAll('.product');
         const viewMoreButton = document.getElementById('viewMore');
@@ -994,7 +1006,7 @@
         // Handle category filter change
         document.getElementById('categoryFilter').addEventListener('change', function() {
             currentCategory = this.value;
-            currentIndex = 10;  // Reset to 10 when category is changed (show first 10)
+            currentIndex = 13;  // Reset to 10 when category is changed (show first 10)
             showProducts();
             document.getElementById('filteredCategory').textContent = currentCategory === 'all' ? '' : 'Filtered Category: ' + currentCategory.charAt(0).toUpperCase() + currentCategory.slice(1);
             document.getElementById('clearFilter').style.display = currentCategory === 'all' ? 'none' : 'block';
@@ -1006,13 +1018,13 @@
             currentCategory = 'all';
             document.getElementById('filteredCategory').textContent = '';
             document.getElementById('clearFilter').style.display = 'none';
-            currentIndex = 10; // Reset product index
+            currentIndex = 13; // Reset product index
             showProducts();
         });
 
         // Initially show products based on selected category (load 10 products initially)
         window.addEventListener('load', function() {
-            currentIndex = 10; // Show the first 10 items initially
+            currentIndex = 13; // Show the first 10 items initially
             showProducts();
         });
     </script>

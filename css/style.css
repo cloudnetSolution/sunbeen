@@ -33,7 +33,7 @@ h6,
     bottom: 30px;
     z-index: 99;
 }
-.f-poppin{
+.f-poppins{
     font-family: "Poppins", serif;
 }
 
@@ -526,4 +526,15 @@ font-size: calc(1.275rem + 1.3vw) !important;
     background-size: cover;
     min-height: 400px;
     background-attachment: fixed;
+}
+.administrative{
+display: inline;
+margin-bottom: 30px;
+}
+.administrative span{
+    position: absolute;
+    left: 50%;
+    top: 47px;
+    transform: translateX(-50%);
+    font-size: 18px;
 }
