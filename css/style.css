@@ -268,6 +268,18 @@ font-size: calc(1.275rem + 1.3vw) !important;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/compound.webp) center center no-repeat;
     background-size: cover;
 }
+.contact-page-header {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/contact-page-back.jpg) center center no-repeat;
+    background-size: cover;
+}
+.quality-page-header {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/quality-page-back.webp) center center no-repeat ;
+    background-size: fill;
+}
+.global-page-header {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/choco-map.jpg) center center no-repeat ;
+    background-size: cover;
+}
 
 .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
@@ -516,13 +528,13 @@ font-size: calc(1.275rem + 1.3vw) !important;
     object-fit: cover;
 }
 @media  screen and (min-width:767px) {
-    .quality .row .col-md-5{
+    .quality .row .col-md-6{
         padding-right: 0;
         padding-left: 0;
     }
 }
 .banner-quality{
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/quality/banner-quality.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/quality/banner-quality.jpg) center center no-repeat;
     background-size: cover;
     min-height: 400px;
     background-attachment: fixed;
@@ -537,4 +549,128 @@ margin-bottom: 30px;
     top: 47px;
     transform: translateX(-50%);
     font-size: 18px;
+}
+.who-we-imgWrapper .cocoa-powder{
+    width: 200px; 
+    height: 200px;
+    top: 280px; 
+    left: 13%; 
+    overflow: 
+    hidden; 
+    border: 10px solid #EAA636;
+}
+.who-we-imgWrapper .logo{
+    width: 250px;
+    height: 250px;
+    top: 100px; 
+    left: 33%; 
+    z-index: 1;  
+    border: 10px solid #fff;
+}
+.who-we-imgWrapper .beans{
+    width: 180px; 
+    height: 180px; 
+    top: 50px; 
+    left: 8%; 
+    overflow: hidden; 
+    border: 10px solid #EAA636;
+}
+@media screen and (max-width:767px) {
+    .who-we-imgWrapper{
+        min-height: 700px;
+    }
+    .who-we-imgWrapper .cocoa-powder{
+        width: 180px; 
+        height: 180px;
+        top: 280px; 
+        left: 10%; 
+        overflow:hidden; 
+        border: 7px solid #EAA636;
+    }
+    .who-we-imgWrapper .beans{
+        width: 180px; 
+        height: 180px; 
+        top: 50px; 
+        left: 5%; 
+        overflow: hidden; 
+        border: 7px solid #EAA636;
+    }
+    .who-we-imgWrapper .logo{
+        width: 250px;
+        height: 250px;
+        top: 100px; 
+        left: 33%; 
+        z-index: 1;  
+        border: 10px solid #fff;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .who-we-imgWrapper{
+        min-height: 500px;
+    }
+    .who-we-imgWrapper .cocoa-powder{
+        width: 160px; 
+        height: 160px;
+        top: 230px; 
+        left: 6%; 
+        overflow:hidden; 
+        border: 7px solid #EAA636;
+    }
+    .who-we-imgWrapper .beans{
+        width: 160px; 
+        height: 160px; 
+        top: 50px; 
+        left: 3%; 
+        overflow: hidden; 
+        border: 7px solid #EAA636;
+    }
+    .who-we-imgWrapper .logo{
+        width: 180px;
+        height: 180px;
+        top: 100px; 
+        left: 25%; 
+        z-index: 1;  
+        border: 7px solid #fff;
+    }
+}
+.choose-card{
+ transition: .5s;
+ -webkit-transition: .5s;
+ -moz-transition: .5s;
+ -ms-transition: .5s;
+ -o-transition: .5s;
+}
+.choose-card:hover {
+    margin-top: -10px;
+    background: #FFFFFF !important;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+}
+.usap-wrapper{
+        background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../img/quality/banner-quality.jpg) center center no-repeat;
+        background-size: cover;
+        min-height: 300px;
+        background-attachment: fixed;
+}
+.global-card-wrapper{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.global-card-wrapper:hover{
+    margin-top: -10px;
+    background: var(--light) !important;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+}
+.global-card-wrapper .icon{
+    width: 80px;
+    height: 80px;
+
+}
+.global-card-wrapper .icon img{
+    width: 100%;
+    
+
 }
