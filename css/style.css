@@ -164,9 +164,20 @@ h6,
     z-index: 1;
     /* background: rgba(0, 0, 0, .5); */
 }
+.header-carousel .owl-carousel-inner h3{
+    position: absolute;
+    writing-mode: vertical-lr;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    text-orientation: mixed;
+    left: -18px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
 .header-carousel .owl-carousel-inner h1 {
     font-family: "Poppins", serif;
-    font-size: calc(4.625rem + 1.5vw);
+    font-size: calc(2.625rem + 1.5vw);
    
 }
 @media screen and (max-width:575px) {
@@ -269,7 +280,7 @@ font-size: calc(1.275rem + 1.3vw) !important;
     background-size: cover;
 }
 .contact-page-header {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/contact-page-back.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/product/beans.jpg) center center no-repeat;
     background-size: cover;
 }
 .quality-page-header {
